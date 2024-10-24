@@ -1,1 +1,17 @@
+Write a C++ program to reverse a stack using recursion, without using any loop.
+Input: elements present in stack from top to bottom 28 29 30 31
+Output: 31 30 29 28 
+2 Given an array, print the Next Greater Element (NGE) for every element.
+Example:
+Input: arr[] = [ 4, 5 , 2 , 25 ]
+Output:  4      –>   5
+               5      –>   25
+               2      –>   25
+              25     –>   -1
+Explanation: 
+•	Except 25 every element has an element greater than them present on the right side.
+•	4 is the 1st element and the next element 5 is greater than 4.
+•	Now, 5 is the next element, then it compares with the nearby element 2. 2 is lower than 5. 
+•	So, it jumps to 25. 25 is greater than 5.
+•	Accordingly, 2 < 25. Then, 25 is the last and greater than all elements. So, we give -1.
 
